@@ -1,7 +1,9 @@
 //new line  is aded
+//second chnange by user two 
+
 $(document).ready(function()
 {
-
+console.log ("user 2 change 2");
     jQuery.validator.addMethod("lettersonly", function(value, element) {
         return this.optional(element) || /^[a-z\s]+$/i.test(value);
     });
