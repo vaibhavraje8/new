@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title>Pagination</title>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+        <style type="text/css">
+        	tr:nth-child(even) {background-color: #B0B0B0;}
+             th{cursor: pointer;}
+        </style>
+    </head>  
+    <body>  
+        <div class="container">  
+           <h1 align="center"></h1><br /> 
+           <div><p><span><a class=" col-sm-2" href="register.php"><button>add new customer</button></a>
+                <input class="col-md-offset-8 col-sm-2" type="text" id="myInput" oninput="myFunction()" placeholder="search data in table">
+                </span></p>
+                <table style="border:2px   solid #000;" class="col-lg-8">  
+                </table>
+            
+           </div>
+           <div id="pData"></div>  
+        </div>  
+      <script src="start.js"></script>
+      
+  </body>  
+</html> 
