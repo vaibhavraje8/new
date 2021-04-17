@@ -1,6 +1,6 @@
 $(document).ready(function(){ 
    
-
+    console.log(1234+"this is change");
     loadPages(1);
 }); 
     function editId(edId)  
