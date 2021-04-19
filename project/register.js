@@ -1,4 +1,4 @@
-//new line  is aded
+
 $(document).ready(function()
 {
 
