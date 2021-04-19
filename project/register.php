@@ -1,4 +1,7 @@
 <?php
+/*
+another changes
+*/
 include "config.php";
 if(isset($_GET['edId'])&&$_GET['edId']>0){
 	$query= "SELECT * FROM customers WHERE iId=".$_GET["edId"]; 
