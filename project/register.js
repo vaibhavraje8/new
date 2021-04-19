@@ -1,7 +1,7 @@
 
 $(document).ready(function()
 {
-
+//mohit and vaibhav
     jQuery.validator.addMethod("lettersonly", function(value, element) {
         return this.optional(element) || /^[a-z\s]+$/i.test(value);
     });
